@@ -7,8 +7,9 @@ Loop
 	   _cancel = 0
 	    Return
 	}
-	send {w down}
+	send {SC011 down}
 	Sleep 50
 }
 Return
-~w::_cancel = 1
+
+~SC011::_cancel = 1
